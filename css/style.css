@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+nav{
+    background: linear-gradient(80deg,#282c3f ,#e292b4);
+}
+.logo{
+    height: 4rem;
+    padding: 1rem 1rem 0.3rem;
+}
+
+/** Colores **/
+.banner-home{
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.25) 75%), url(../img/banner-home.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+    margin-bottom: 2rem;
+}
+.banner-bajada{
+    color:#f4f4f4;
+}
+.btn-quien{
+    width:15rem;
+}
+h2{
+    color:white
+}
+.porta-card .card{
+    width:calc(25% - 2rem) !important;
+    min-width: 13rem;
+    margin:auto;
+    margin-bottom: 2rem;
+
+}
+
